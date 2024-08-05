@@ -18,3 +18,4 @@ var/
 *.env
 # Serverless directories
 .serverless
+projeto3/node_modules
