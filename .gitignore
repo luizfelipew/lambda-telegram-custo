@@ -19,3 +19,4 @@ var/
 # Serverless directories
 .serverless
 projeto3/node_modules
+projeto3/__pycache__
