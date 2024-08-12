@@ -4,7 +4,7 @@ from datetime import datetime
 from dateutil import relativedelta
 from app import enviar_mensagem_telegram
 
-sessao = boto3.Session(profile_name='automacao-curso')
+sessao = boto3.Session()
 cliente_ce = sessao.client('ce')
 
 def get_cost(event, context):
@@ -34,5 +34,3 @@ def get_cost(event, context):
     return {
         "statusCode": 200
     }
-
-get_cost({}, {})
